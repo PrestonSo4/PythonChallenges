@@ -1,3 +1,5 @@
+#Problem Link: https://www.101computing.net/standard-form-conversion-algorithm/
+
 a = float(input("Enter the larger of the numbers: "))
 b = float(input("Enter the smaller of the numbers: "))
 while b > 0:
