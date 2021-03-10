@@ -11,7 +11,7 @@ def getAngles(a1, a2):
         a3 = 180 - a1 - a2
         print("The final angle of a triangle with angles:", a1, "and", a2, "will be:", a3)
 def isEquilateral(a,b,c):
-    if a = b and a = c:
+    if a == b and a == c:
         print("The triangle with all sidelengths of:", a, "is an equilateral triangle.")
     else:
         print("Your triangle with the specified information is not an equilateral tirangle")
