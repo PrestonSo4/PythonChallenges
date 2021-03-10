@@ -16,8 +16,7 @@ def isEquilateral(a,b,c):
     else:
         print("Your triangle with the specified information is not an equilateral tirangle")
 def isIsoscles(a,b,c):
-    if a = b or a = c or b = c:
+    if a == b or a == c or b == c:
         print("A triangle with the sideslengths of:",str(a) + ",",str(b) + ",",str(c) + ", is an Isoscles triangle.")
     else:
         print("Your triangle with the specified information is not an isoscles tirangle")        
-        
