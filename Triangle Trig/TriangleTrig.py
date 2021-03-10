@@ -2,4 +2,5 @@
 #import triangleFunctions
 from triangleFunctions import *
 #Must save other files first before calling other lines of code
-getPerimeter(2,3,4)
+#getPerimeter(2,3,4)
+getArea(4,2)
