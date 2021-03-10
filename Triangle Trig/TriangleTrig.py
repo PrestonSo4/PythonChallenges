@@ -5,3 +5,4 @@ from triangleFunctions import *
 getPerimeter(2,3,4)
 getArea(4,2)
 getAngles(0,120)
+isEquilateral(4,4,4,)
