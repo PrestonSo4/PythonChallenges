@@ -1,3 +1,4 @@
+#https://www.101computing.net/triangle-geometry-functions/
 from math import sqrt
 def getPerimeter(a,b,c):
     perimeter = a+b+c
@@ -33,5 +34,5 @@ def pythagTheorem():
         if q2 = "a":
             c = float(input("What is the length of the hypotonuse? "))
             b = float(input("What is the length of side b? "))
-            
+
 
