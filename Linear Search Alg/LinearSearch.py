@@ -18,7 +18,7 @@ def isListed(value, lst):
 
 #Main Program:
 
-students = readFile('rewards')
+students = readFile('rewards.txt')
 student = input("Enter the name of the student you want to find: ")
 
 if isListed(student, students):
