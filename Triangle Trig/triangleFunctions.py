@@ -30,7 +30,7 @@ def pythagTheorem():
         c = sqrt(a**2+b**2)
         print("The length of side C is:", c)
     else:
-        q2 = float(input("What side are you solving for? (a/b): ")).lower()
+        q2 = str(input("What side are you solving for? (a/b): ")).lower()
         if q2 == "a":
             c = float(input("What is the length of the hypotonuse? "))
             b = float(input("What is the length of side b? "))
