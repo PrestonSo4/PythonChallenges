@@ -31,8 +31,21 @@ def pythagTheorem():
         print("The length of side C is:", c)
     else:
         q2 = float(input("What side are you solving for? (a/b): ")).lower()
-        if q2 = "a":
+        if q2 == "a":
             c = float(input("What is the length of the hypotonuse? "))
             b = float(input("What is the length of side b? "))
+            a = sqrt(c**2-b**2)
+            print("The length of side A is:",a)
+        if q2 == "b":
+            c = float(input("What is the length of the hypotonuse? "))
+            a = float(input("What is the length of side b? "))
+            b = sqrt(c**2-a**2)
+            print("The length of side A is:",a)
+        
+def heronForm(a,b,c):
+    s = (a+b+c)/2
+    area = sqrt(s*(s-a)*(s-b)*(s-c))
+    print("The area of a triangle with sidelenghts: "+str(a)+", "+str(b)+", "+str(c)+", is:", area)
+
 
 
