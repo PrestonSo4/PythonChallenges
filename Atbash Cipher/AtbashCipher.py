@@ -14,4 +14,4 @@ def encrypt(text):
     return cText
 
 print(encrypt('This is a test'))
-print(encrypt(''))
+print(encrypt('GSRH RH Z GVHG'))
