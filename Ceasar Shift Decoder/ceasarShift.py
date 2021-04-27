@@ -13,8 +13,37 @@ def decrypt():
             text += chr(ascii)
         print(text,'\n')
 
+## Trying to make a ceasar shift encoder
+
+def encrypt():
+    text = input('Enter plain text: ')
+    cipher = ''
+    while True:
+        try:
+            key = int(input('Enter the key: '))
+            if key >  26 or key < 1:
+                print('That is to big or too small of a key.')
+            else:
+                break
+        except:
+            print('That is an invalid key, Try again!')
+    for char in text:
+        start = 97 if char.islower() else 65
+        end = 122 if char.islower () else 90
+        ascii = ord(char)
+        ascii -= key
+        if ascii < start:
+            ascii += 26
+        cipher += chr(ascii)
+    print(cipher)
+
 if __name__ == '__main__':
-    c = input('Y/N\n').upper()
-    while c == 'Y':
-        decrypt()
-        c = input('Y/N\n').upper()
+    
+    while True:
+        c = input('D/E/Q\n').upper()
+        if c == 'D':
+            decrypt()
+        elif c == 'E':
+            encrypt()
+        else:
+            break
